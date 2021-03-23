@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
 }
 
 /* navigation bar */
@@ -8,11 +8,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 4px 60px 2px 60px;
     height: 40px;
     
 
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 0.05em;
@@ -21,7 +21,7 @@ nav {
 }
 
 .nytimes-logo {
-    height: 28px;
+    height: 26px;
     cursor: pointer;
 }
 
@@ -59,53 +59,8 @@ h1 {
     border-bottom: 1px solid #f0eded;
   }
 
-  main {
-    display: grid;
-    width: 60%;
-    margin: 5vh auto;
-    grid-template-columns: 12% 1fr 12%;
-    grid-gap: 2vh;
-    box-sizing: border-box;
+main {
+    display: block;
+    width: 85%;
+    margin: 60px auto;
   }
-  
-  main > * {
-    grid-column: 2 / 2;
-  }
-  
-  .contents {
-    grid-column: 2 / 3;
-  }
-  
-  .contents-wide {
-    grid-column: 1 / 4;
-    margin-bottom: 3vh;
-  }
-
-  .social-icons {
-    display: flex;
-    align-items: center;
-  }
-
-  .social-icons {
-    display: flex;
-    align-items: center;
-  }
-  
-  .social-icons i, .social-icons ion-icon {
-    border: 1px solid rgb(243, 242, 242);
-    margin-right: 1vw;
-    padding: 5px 7px;
-    font-size: 16px;
-    border-radius: 50%;
-    background-color: rgb(243, 242, 242);
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-  
-  .social-icons ion-icon {
-    font-size: 25px;
-    background-color: #fff;
-    padding: 3px 0;
-    border: 1px solid white;
-  }
-  
