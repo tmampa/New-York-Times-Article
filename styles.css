@@ -8,11 +8,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4px 60px 2px 60px;
+    padding: 5px 10px;
     height: 40px;
     
 
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 0.05em;
@@ -21,7 +21,7 @@ nav {
 }
 
 .nytimes-logo {
-    height: 26px;
+    height: 28px;
     cursor: pointer;
 }
 
@@ -45,22 +45,34 @@ nav {
     margin-right: 25px;
 }
 
-/* main page */
+/* Social media icons */
 
-h1 {
-    color: #121212;
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 36px;
-    line-height: 135%;
-    margin: 0;
-    padding-bottom: 2vh;
-    border-bottom: 1px solid #f0eded;
+.social-icons {
+    display: flex;
+    align-items: center;
   }
 
-main {
-    display: block;
-    width: 85%;
-    margin: 60px auto;
+.social-icons {
+    display: flex;
+    align-items: center;
   }
+  
+.social-icons i, .social-icons ion-icon {
+    border: 1px solid rgb(243, 242, 242);
+    margin-right: 1vw;
+    padding: 5px 7px;
+    font-size: 16px;
+    border-radius: 50%;
+    background-color: rgb(243, 242, 242);
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+.social-icons ion-icon {
+    font-size: 25px;
+    background-color: #fff;
+    padding: 3px 0;
+    border: 1px solid white;
+  }
+  
+
