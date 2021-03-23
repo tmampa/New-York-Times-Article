@@ -8,7 +8,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 5px 60px 2px 60px;
     height: 40px;
     
 
@@ -255,30 +255,4 @@ article p {
 
 article p strong {
   font-weight: 700;
-}
-
-/* Social links */
-
-
-/* Footer */
-footer {
-  width: 65%;
-  margin: 0 auto;
-  padding-top: 9px;
-  border-top: 1px solid #ebebeb;
-}
-
-footer ul {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 35px;
-}
-
-footer ul li {
-  padding: 0 10px;
-}
-
-footer ul li a {
-  color: #666;
-  font-size: 11px;
 }
