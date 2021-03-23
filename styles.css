@@ -253,32 +253,32 @@ article p {
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
-article p:first-of-type {
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  font-weight: 700;
-}
-
-article p a {
-  color: #326891;
-  text-decoration: underline;
-}
-
-article p a:hover {
-  text-decoration: none;
-}
-
-article p:first-of-type a {
-  color: #333;
-}
-
-article p:nth-of-type(2) {
-  font-weight: 500;
-  margin-bottom: 1rem;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-}
-
 article p strong {
   font-weight: 700;
+}
+
+/* Social links */
+
+
+/* Footer */
+footer {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 9px;
+  border-top: 1px solid #ebebeb;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+footer ul li {
+  padding: 0 10px;
+}
+
+footer ul li a {
+  color: #666;
+  font-size: 11px;
 }
