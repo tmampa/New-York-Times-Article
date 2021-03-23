@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    height: 40px;
+    
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5%;
+    
+    border-bottom: 1px solid rgba(155, 155, 155, 0.411);
+}
+
+.nytimes-logo {
+    height: 28px;
+}
+
+.button {
+    height: 35px;
+    margin-right: 10px;
+
+    color: white;
+    font-weight: 600;
+    font-size: 11px;
+
+    border: 1px solid #326891;
+    background-color: #567b95;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+}
+
+.nav-icons {
+    margin-right: 25px;
+}
