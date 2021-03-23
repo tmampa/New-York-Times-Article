@@ -15,7 +15,7 @@ nav {
     font-size: 16px;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 0.5%;
+    letter-spacing: 0.05em;
     
     border-bottom: 1px solid rgba(155, 155, 155, 0.411);
 }
@@ -42,3 +42,17 @@ nav {
 .nav-icons {
     margin-right: 25px;
 }
+
+/* main page */
+
+h1 {
+    color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    margin: 0;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid #f0eded;
+  }
