@@ -5,7 +5,7 @@ New York Times Article Page
 > The project was completed with html and css. It involves building a replica of this article on 
 New York Times to experiment with the inclusion of multimedia content and practice positioning techniques like Grid, Flex and Floats.
 
-![screenshot](./screenshot.png)
+![](Screenshot.png)
 
 Additional description about the project and its features.
 
