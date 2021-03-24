@@ -4,6 +4,57 @@ body {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
+header {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 14px;
+  border-bottom: 1px solid var(--border-gray);
+  box-shadow: rgb(0 0 0 / 8%) 0 0 5px 1px;
+  margin-bottom: 3vh;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+}
+
+.social-icons img {
+  width: 4em;
+  height: 4em;
+}
+
+.header-extras {
+  font-size: 14.25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.header-extras .fas {
+  margin-right: 1vw;
+  padding: 8px;
+}
+
+.header-extras .fas:hover {
+  cursor: pointer;
+  background-color: var(--subtle-gray);
+}
+
+header .logo {
+  height: 36px;
+  width: auto;
+}
+
+.header-title {
+  font-size: 13px;
+  display: none;
+}
+
+.header-narrow-icons {
+  display: none !important;
+}
+
 button {
   border: none;
   background-color: transparent;
@@ -51,22 +102,6 @@ footer ul {
 
 footer ul li {
   padding: 0 10px;
-}
-
-header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  background-color: white;
-  border-bottom: 1px solid #e2e2e2;
-}
-
-#header-container {
-  width: 85%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 4px 15px 4px;
 }
 
 article div:nth-last-child(2) a {
@@ -149,54 +184,6 @@ nav div:last-child ul:last-child li:nth-of-type(-n+4) a {
 
 nav div:last-child ul:last-child li:nth-of-type(4) a {
   margin-bottom: 20px;
-}
-
-#header-start-flex {
-  display: flex;
-  align-items: center;
-}
-
-#header-start-flex button {
-  display: flex;
-  align-items: center;
-  margin-right: 8px;
-  padding: 9px;
-  border-radius: 3px;
-}
-
-#header-start-flex button:hover {
-  background-color: #f7f7f7;
-}
-
-#header-mid svg {
-  width: 195px;
-  height: 26.5px;
-}
-
-#header-start-flex button svg {
-  width: 16px;
-  height: 16px;
-  fill: #333;
-}
-
-#header-start-flex a {
-  margin-left: 8px;
-  font-size: 14.25px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.7px;
-  line-height: 19px;
-}
-
-#header-mid {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#header-end-flex {
-  display: flex;
 }
 
 .blue-btn {
