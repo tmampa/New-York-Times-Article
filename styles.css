@@ -19,24 +19,24 @@ header {
   background: #fff;
 }
 
-.social-icons img {
+.social-media-icons img {
   width: 4em;
   height: 4em;
 }
 
-.header-extras {
+.top-header {
   font-size: 14.25px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.7px;
 }
 
-.header-extras .fas {
+.top-header .fas {
   margin-right: 1vw;
   padding: 8px;
 }
 
-.header-extras .fas:hover {
+.top-header .fas:hover {
   cursor: pointer;
   background-color: var(--subtle-gray);
 }
@@ -51,7 +51,7 @@ header .logo {
   display: none;
 }
 
-.header-narrow-icons {
+.header-icons {
   display: none !important;
 }
 
