@@ -24,16 +24,16 @@ Additional description about the project and its features.
 
 👤 **Tshephang Mampa**
 
-- GitHub: [@githubhandle](https://github.com/tmampa)
-- Twitter: [@twitterhandle](https://twitter.com/tshephangm_)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tshephang-mampa-9235951a1)
+- GitHub: [@tmampa](https://github.com/tmampa)
+- Twitter: [@tshephangm_](https://twitter.com/tshephangm_)
+- LinkedIn: [Tshephang Mampa](https://www.linkedin.com/in/tshephang-mampa-9235951a1)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/tmampa/New-York-Times-Article/issues/2).
 
 ## Show your support
 
