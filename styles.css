@@ -446,7 +446,6 @@ nav {
   width: 65%;
   margin: 0 auto;
   padding-bottom: 18px;
-  display: flex;
   flex-direction: column;
   border-top: 2px solid #e2e2e2;
 }
