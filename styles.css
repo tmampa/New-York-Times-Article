@@ -478,3 +478,25 @@ footer {
 .footer-list {
   list-style-type: none;
 }
+
+.flex-container {
+  display: flex;
+}
+
+.article-flex {
+  width: 38%;
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  color: #333;
+  line-height: 1.875rem;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.article-flex-right {
+  width: 31%;
+}
+
+.article-flex-left {
+  width: 31%;
+  justify-items: center;
+}
