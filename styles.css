@@ -481,22 +481,24 @@ footer {
 
 .flex-container {
   display: flex;
+  justify-content: space-between;
 }
 
-.article-flex {
-  width: 38%;
-  margin-bottom: 15px;
-  font-size: 1.25rem;
-  color: #333;
-  line-height: 1.875rem;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+.editor-picks {
+  width: 180px;
+  text-align: center;
+  float: right;
+  margin-top: 85%;
+  margin-right: 10%;
+  font-size: 14pxx;
 }
 
-.article-flex-right {
-  width: 31%;
+.editor-picks figure {
+  padding-left: 0;
+  width: 100%;
+  margin: 20px;
 }
 
-.article-flex-left {
-  width: 31%;
-  justify-items: center;
+.editor-picks img {
+  width: 60px;
 }
