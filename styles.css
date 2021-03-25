@@ -261,6 +261,10 @@ figcaption span {
   margin-right: 16px;
 }
 
+.editor-picks img {
+  width: 60px;
+}
+
 #alan-img {
   margin-top: 23px;
   margin-left: calc(-30vw + 50%);
@@ -490,15 +494,11 @@ footer {
   float: right;
   margin-top: 85%;
   margin-right: 10%;
-  font-size: 14pxx;
+  font-size: 14px;
 }
 
 .editor-picks figure {
   padding-left: 0;
   width: 100%;
   margin: 20px;
-}
-
-.editor-picks img {
-  width: 60px;
 }
