@@ -474,3 +474,7 @@ footer {
   padding-top: 9px;
   border-top: 1px solid #ebebeb;
 }
+
+.footer-list {
+  list-style-type: none;
+}
