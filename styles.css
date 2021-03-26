@@ -109,6 +109,20 @@ article div:nth-last-child(2) a {
   text-decoration: underline;
 }
 
+.flex-div > div {
+  display: block;
+  height: 288.75px;
+  width: 272.63px;
+  padding-bottom: 20px;
+}
+
+.image-title > div {
+  margin-top: 5px;
+  font: 11px 'Libre Franklin', sans-serif;
+  letter-spacing: 0.5px;
+  color: rgb(167, 166, 166);
+}
+
 nav div:last-child ul a {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -263,6 +277,11 @@ figcaption span {
 
 .editor-picks img {
   width: 60px;
+}
+
+.rec-image > img {
+  width: 272.63px;
+  height: 181.75px;
 }
 
 #alan-img {
@@ -500,4 +519,83 @@ footer {
   padding-left: 0;
   width: 100%;
   margin: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.recirculation {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.more-space-astronomy {
+  display: block;
+  width: 852px;
+  padding-top: 17px;
+  border-top: 1px solid #333;
+}
+
+.flex-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.rec-container {
+  height: 203.75px;
+  width: 272.63px;
+}
+
+.caption-wrapper {
+  width: 272.63px;
+  height: 16px;
+}
+
+.rec-image {
+  height: 181.75px;
+}
+
+.rec-caption {
+  font-size: 10px;
+  color: grey;
+  text-align: right;
+  margin-top: 3px;
+  padding-bottom: 4px;
+}
+
+.image-title {
+  display: block;
+  width: 272.63px;
+  height: 65px;
+  padding: 0 10px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.more-head {
+  width: 100%;
+  font: 16px 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.popular {
+  display: block;
+  width: 315px;
+  padding: 20px 3% 0 3%;
+  margin-left: 30px;
+  padding-left: 15px;
+  border-top: 1px solid #333;
+}
+
+.popular-section {
+  font-size: 19px;
+  line-height: 25px;
+  border-top: 1px solid rgb(212, 212, 212);
+  padding: 15px 0 15px 0;
 }
