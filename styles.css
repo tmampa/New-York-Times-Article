@@ -17,6 +17,7 @@ header {
   top: 0;
   z-index: 1;
   background: #fff;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .social-media-icons img {
