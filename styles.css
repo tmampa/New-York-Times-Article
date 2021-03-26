@@ -1,0 +1,600 @@
+html,
+body {
+  margin: 0;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 60px 2px 60px;
+  border-bottom: 1px solid var(--border-gray);
+  box-shadow: rgb(0 0 0 / 8%) 0 0 5px 1px;
+  margin-bottom: 3vh;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.social-media-icons img {
+  width: 4em;
+  height: 4em;
+}
+
+.top-header {
+  font-size: 14.25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.top-header .fas {
+  margin-right: 1vw;
+  padding: 8px;
+}
+
+.top-header .fas:hover {
+  cursor: pointer;
+  background-color: var(--subtle-gray);
+}
+
+header .logo {
+  height: 36px;
+  width: auto;
+}
+
+.header-title {
+  font-size: 13px;
+  display: none;
+}
+
+.header-icons {
+  display: none !important;
+}
+
+button {
+  border: 1px solid #326891;
+  border-radius: 3px;
+  background-color: #567b95;
+  padding: 11px 12px 8px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+article p a {
+  color: #326891;
+  text-decoration: underline;
+}
+
+footer ul li a {
+  color: #666;
+  font-size: 11px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+article p a:hover {
+  text-decoration: none;
+}
+
+article p:first-of-type a {
+  color: #333;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+footer ul li {
+  padding: 0 10px;
+}
+
+article div:nth-last-child(2) a {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+
+.flex-div > div {
+  display: block;
+  height: 288.75px;
+  width: 272.63px;
+  padding-bottom: 20px;
+}
+
+.image-title > div {
+  margin-top: 5px;
+  font: 11px 'Libre Franklin', sans-serif;
+  letter-spacing: 0.5px;
+  color: rgb(167, 166, 166);
+}
+
+nav div:last-child ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+nav div:first-child svg {
+  width: 184px;
+  height: 44px;
+}
+
+.social-icons li {
+  display: flex;
+  align-items: center;
+}
+
+nav div:last-child li {
+  margin-top: 9px;
+}
+
+.social-icons li:nth-child(-n+5) a {
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 4px 5px;
+}
+
+nav div:first-child a:last-child {
+  margin-top: auto;
+  margin-bottom: 12px;
+  color: rgb(86, 123, 149);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+nav div:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.social-icons li:nth-child(-n+5) svg {
+  width: 15px;
+  height: 15px;
+  fill: #000;
+}
+
+nav div:last-child ul:last-child svg {
+  width: 13px;
+  height: 13px;
+  margin-right: 7px;
+}
+
+nav div:last-child ul a:hover {
+  text-decoration: underline;
+}
+
+nav div:last-child ul:last-child li a {
+  font-size: 11px;
+}
+
+nav div:last-child ul:last-child li:nth-of-type(-n+4) a {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+nav div:last-child ul:last-child li:nth-of-type(4) a {
+  margin-bottom: 20px;
+}
+
+.blue-btn {
+  padding: 10px 12px;
+  vertical-align: middle;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  background-color: #567b95;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.blue-btn:hover {
+  background-color: #326891;
+}
+
+#header-end-flex button:first-child {
+  margin-right: 7px;
+}
+
+main {
+  width: 85%;
+  margin: 60px auto;
+}
+
+main article {
+  width: 600px;
+  margin: 0 auto;
+}
+
+main article h1 {
+  margin-bottom: 20px;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-style: italic;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #121212;
+  line-height: 3rem;
+}
+
+article figure {
+  margin-top: 43px;
+  margin-bottom: 43px;
+}
+
+figcaption {
+  max-width: 900px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  margin: 10px 0;
+}
+
+figcaption span {
+  font-size: 0.8125rem;
+  color: #888;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  line-height: 1.125rem;
+  letter-spacing: 0.01em;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ebebeb;
+  padding-top: 20px;
+}
+
+.social-icons li:nth-last-of-type(n+2) {
+  margin-right: 16px;
+}
+
+.editor-picks img {
+  width: 60px;
+}
+
+.rec-image > a > img {
+  width: 272.63px;
+  height: 181.75px;
+}
+
+#alan-img {
+  margin-top: 23px;
+  margin-left: calc(-30vw + 50%);
+  width: 60vw;
+}
+
+#alan-img img {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+#cosmo {
+  margin-left: calc(-20vw + 50%);
+  width: 40vw;
+}
+
+#cosmo img {
+  width: 100%;
+}
+
+article p {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  color: #333;
+  line-height: 1.875rem;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+article p:first-of-type {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+}
+
+article p:nth-of-type(2) {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+}
+
+article p strong {
+  font-weight: 700;
+}
+
+article div:nth-last-child(2) {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin: 0 auto 1em;
+  color: rgb(102, 102, 102);
+}
+
+article div:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+article div:last-child .blue-btn {
+  flex: 1;
+}
+
+article div:last-child .social-icons {
+  border: none;
+  padding-top: 0;
+  padding-left: 60px;
+}
+
+nav div:first-child {
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e2e2e2;
+}
+
+#inflation {
+  margin-left: calc(-25vw + 50%);
+  margin-top: 43px;
+  margin-bottom: 43px;
+  width: 50vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto repeat(4, 1fr) auto;
+}
+
+#inflation div:first-of-type {
+  margin-bottom: 2px;
+  font-size: 1.25rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+}
+
+#inflation div:nth-of-type(2) {
+  margin-bottom: 10px;
+  font-size: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+  color: #666;
+}
+
+#inflation div:last-of-type {
+  margin-top: 24px;
+  grid-column: 1 / -1;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#inflation p {
+  width: 92%;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+}
+
+#inflation p strong {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+#inflation div:first-child {
+  grid-column: 1 / -1;
+}
+
+#inflation img {
+  width: 100%;
+  height: 100%;
+  grid-area: 3 / 1 / -1 / -1;
+}
+
+#inflation p:first-of-type {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+#inflation p:nth-of-type(2) {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+#inflation p:nth-of-type(3) {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+#inflation p:nth-of-type(4) {
+  grid-area: 4 / 4 / 5 / 5;
+}
+
+#inflation p:nth-of-type(5) {
+  grid-area: 6 / 1 / 7 / 2;
+}
+
+#inflation p:nth-of-type(6) {
+  grid-area: 6 / 2 / 7 / 3;
+}
+
+#inflation p:nth-of-type(7) {
+  grid-area: 6 / 3 / 7 / 4;
+}
+
+#inflation p:nth-of-type(8) {
+  grid-area: 6 / 4 / 7 / 5;
+}
+
+nav {
+  width: 65%;
+  margin: 0 auto;
+  padding-bottom: 18px;
+  flex-direction: column;
+  border-top: 2px solid #e2e2e2;
+}
+
+nav div:last-child li:first-child {
+  margin-top: 13px;
+}
+
+nav div:last-child ul {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav div:last-child ul:last-child {
+  padding-left: 15px;
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+nav div:last-child ul:last-child li:nth-of-type(7) {
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+footer {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 9px;
+  border-top: 1px solid #ebebeb;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editor-picks {
+  width: 180px;
+  text-align: center;
+  float: right;
+  margin: 1800px 100px 0 0;
+  font-size: 14px;
+}
+
+.editor-picks figure {
+  padding-left: 5px;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.recirculation {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.more-space-astronomy {
+  display: block;
+  width: 852px;
+  padding-top: 17px;
+  border-top: 1px solid #333;
+}
+
+.flex-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.rec-container {
+  height: 203.75px;
+  width: 272.63px;
+}
+
+.caption-wrapper {
+  width: 272.63px;
+  height: 16px;
+}
+
+.rec-image {
+  height: 181.75px;
+}
+
+.rec-caption {
+  font-size: 10px;
+  color: grey;
+  text-align: right;
+  margin-top: 3px;
+  padding-bottom: 4px;
+}
+
+.image-title {
+  display: block;
+  width: 272.63px;
+  height: 65px;
+  padding: 0 10px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.more-head {
+  width: 100%;
+  font: 16px 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.popular {
+  display: block;
+  width: 315px;
+  padding: 20px 3% 0 3%;
+  margin-left: 30px;
+  padding-left: 15px;
+  border-top: 1px solid #333;
+}
+
+.popular-section {
+  font-size: 19px;
+  line-height: 25px;
+  border-top: 1px solid rgb(212, 212, 212);
+  padding: 15px 0 15px 0;
+}
