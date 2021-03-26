@@ -280,7 +280,7 @@ figcaption span {
   width: 60px;
 }
 
-.rec-image > img {
+.rec-image > a > img {
   width: 272.63px;
   height: 181.75px;
 }
@@ -511,15 +511,13 @@ footer {
   width: 180px;
   text-align: center;
   float: right;
-  margin-top: 85%;
-  margin-right: 10%;
+  margin: 1200px 50px 0 0;
   font-size: 14px;
 }
 
 .editor-picks figure {
-  padding-left: 0;
+  padding-left: 5px;
   width: 100%;
-  margin: 20px;
 }
 
 .wrapper {
